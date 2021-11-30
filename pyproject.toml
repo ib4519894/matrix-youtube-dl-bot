@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "matrix-youtube-dl-bot"
+version = "0.1.0"
+description = "A Matrix bot that downloads and uploads youtube videos that are linked to in a Matrix Room."
+authors = ["krazykirby99999"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+simplematrixbotlib = "^2.4.0"
+youtube_dl = "^2021.6.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
