@@ -6,7 +6,7 @@ authors = ["krazykirby99999"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.8"
 simplematrixbotlib = "^2.4.0"
 youtube_dl = "^2021.6.6"
 
