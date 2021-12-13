@@ -1,4 +1,5 @@
 from typing import List
+import re
 
 def parse(input_text: str) -> str:
     for part in input_text.split():
