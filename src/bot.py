@@ -34,6 +34,7 @@ class Bot(botlib.Bot):
 ### Matrix Youtube-DL Bot
 Commands:
 - {self._prefix}help : Help command, displays this message
+- {self._prefix}dl <youtube url>: Download command, download and upload a youtube video
 [Source Code](https://github.com/ib4519894/matrix-youtube-dl-bot)
 """
             await self.api.send_markdown_message(room.room_id, message=message)
