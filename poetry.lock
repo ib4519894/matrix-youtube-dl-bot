@@ -338,7 +338,7 @@ version = "2.4.0"
 description = "An easy to use bot library for the Matrix ecosystem written in Python."
 category = "main"
 optional = false
-python-versions = ">=3.9,<4.0"
+python-versions = ">=3.8,<4.0"
 
 [package.dependencies]
 markdown = ">=3.3"
@@ -413,7 +413,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9"
+python-versions = "^3.8"
 content-hash = "98ff07e09a7cf96aea7dd46062824c3f2634aac6768be1089a55ed66529c5db0"
 
 [metadata.files]

@@ -3,7 +3,7 @@ import simplematrixbotlib as botlib
 import src
 
 YOUTUBE_DL_OPTS = {
-    'max_filesize' : 50
+    #'max_filesize' : 50
 }
 
 def main() -> None:
